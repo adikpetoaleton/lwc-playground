@@ -9,9 +9,10 @@
    + SLDS icons
    + Container Card Border (e.g. Parent Card of the child Thumbnails)
    + Container Card Title
-   
+
+**Here is the json array for the input; and the fields need to match that structure:**
 ```
-   "whateverRootNodeHere": [
+   "whateverNodeNameHere": [
       {
          "id": 1,
          "title": "10-12-2020",
@@ -22,7 +23,7 @@
          "id": 2,
          "title": "11-12-2020",
          "subtitle": "16:00",
-         "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget sem at turpis congue gravida leo."
+         "detail": "Cras eget sem at turpis congue gravida leo."
       }
    ]
 ```
