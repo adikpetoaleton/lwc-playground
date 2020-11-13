@@ -1,0 +1,151 @@
+/**
+ * Static Decorations
+ */
+
+.thumbnail-default {
+    background-color: rgb(100,100,100);
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.thumbnail-selected {
+    background-color: rgb(170, 170, 170);
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.icon-margin-top {
+    margin-top: 0px;
+}
+
+/* Text on the front of the Card */
+.short-text-truncate {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    line-height: 1;
+    height: 1rem;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(252, 255, 3);
+    text-align: center;
+}
+
+.short-text-top {
+    font-family: "Salesforce Sans Thin", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 35px 0;
+}
+
+.short-text-bottom {
+    font-family: "Salesforce Sans Thin", Arial, sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 35px 0;
+}
+
+/* Text on the back of the Card */ 
+.long-text-truncate {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    line-height: 1.5;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(252, 255, 3);
+    font-family: "Salesforce Sans Thin", Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.long-text-truncate:hover {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+hr {
+    height: 1px;
+    color: white;
+    background-color: white;
+    border: 0;
+    width: 120px;
+}
+
+.hr-top {
+    margin: 40px auto 0;    
+}
+  
+.hr-bottom {
+    margin: 0 auto;
+}
+
+/**
+ * Card Animation
+ */
+
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+
+.card__content {
+    position: relative;
+    transition: transform 2.5s;
+    transform-style: preserve-3d;
+}
+
+.card__front, .card__back {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.card__back {
+    transform: rotateY(0.5turn);
+}
+
+.card:hover .card__content {
+    transform: rotateY(0.5turn);
+}
+
+/**
+ * Button
+ */
+
+.tile-button{
+    margin: 5px auto;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px; 
+    border: 1px solid;
+    border-color: white;
+}
+
+.tile-button-caption {
+    color:white; 
+    font-family: "Salesforce Sans Thin", Arial, sans-serif;
+    text-align: center;
+    margin-top: 4px;  /* NOT GOOD TO ALIGN TEXT VERTICALLY CENTERETED */
+}
+
+.tile-button:hover {
+    background-color: rgb(130, 130, 130);
+    cursor: pointer;
+}
+
+.tile-button:active {
+    background-color: rgb(150, 150, 150);
+    cursor: default;
+}

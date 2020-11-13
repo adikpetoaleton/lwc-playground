@@ -1,0 +1,39 @@
+<!--
+    This is the Child component that is hosting the information pulled mfrom the Omniscript.
+    The dynamic class is used to manage its appearence when it's selected or not.
+-->
+
+<template>
+    <div class="card">
+        <div class="card__content">
+            <div class="card__front">
+                <div class={decoration}>
+                    <lightning-tile class="slds-p-around_medium">
+                        <lightning-icon 
+                            class="slds-align_absolute-center icon-margin-top" 
+                            variant="inverse" 
+                            size="large" 
+                            icon-name={icon} 
+                            alternative-text="undefined" 
+                            title="undefined">
+                        </lightning-icon>
+                        <hr class="hr-top">
+                        <p class="short-text-truncate short-text-top">{message.title}</p>
+                        <hr class="hr-bottom">
+                        <p class="short-text-truncate short-text-bottom">{message.subtitle}</p>
+                    </lightning-tile>
+                </div>
+            </div>
+            <div class="card__back">
+                <div class={decoration}>
+                    <lightning-tile class="slds-p-around_medium">
+                        <p class="long-text-truncate">{message.detail}</p>
+                    </lightning-tile>
+                    <div class="tile-button" onclick={tileClickEventHandler}>
+                        <p class="tile-button-caption">{buttonCaption}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
