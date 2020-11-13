@@ -1,0 +1,20 @@
+<!--
+    Displays a list of Tile with their data pulled from the Data JSON of an Omniscript
+    Nota: The data attribute data-id is used to identify each Tile; it is NOT a Public Property of the Component c-smart-thumbnail
+-->
+
+<template>
+    <div class={border}>
+        <lightning-card title={title}> 
+            <lightning-layout multiple-rows="true">
+                <template for:each={messages} for:item="currentMessage">
+                        <div key={currentMessage.id} style="padding: 10px">
+                            <lightning-layout-item>
+                                <c-smart-thumbnail data-id={currentMessage.id} icon={icon} message={currentMessage}></c-smart-thumbnail>
+                            </lightning-layout-item>
+                        </div>
+                </template>
+            </lightning-layout>
+        </lightning-card>
+    </div>
+</template>
