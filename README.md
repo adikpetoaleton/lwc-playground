@@ -1,4 +1,4 @@
-# lwc-playground
+# Smart Thumbnail LWC
 
 1. Can be embedded within an Omniscript
 2. Takes a json array as its main input
