@@ -1,6 +1,6 @@
-# Smart Thumbnails LWC (Selectable Items) - version 1.0
+# Smart Thumbnails LWC - Version 1.0
 
-This is basically a nice looking selectable items component with a flip side card to display additional details.
+This is basically a nice looking Selectable Items Component with a flip side card to display additional details.
 
 The _SmartThumbnails_ bundle is the one that will show up as a LWC Component inside the Vlocity Omniscript Designer components palette.
 
