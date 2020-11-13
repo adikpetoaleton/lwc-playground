@@ -2,8 +2,8 @@
 
 This is basically a nice looking selectable items component with a flip side card to display additional details.
 
-The SmartThumbnail**s** bundle is the one that will show up as a LWC Component inside the Vlocity Omniscript Designer components palette.
-The SmartThumbnail bundle is the child called by the SmartThumbnail**s** and it won't display inside the Vlocity Omniscript Designer components palette.
+The SmartThumbnails bundle is the one that will show up as a LWC Component inside the Vlocity Omniscript Designer components palette.
+The SmartThumbnail bundle is the child called by the SmartThumbnails and it won't display inside the Vlocity Omniscript Designer components palette.
 
 1. This version can only be used within an Omniscript
 2. It takes a json array as its main input (see below)
