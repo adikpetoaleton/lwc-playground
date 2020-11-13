@@ -1,7 +1,7 @@
 # Smart Thumbnail LWC (Selectable Items)
 
 1. This version can only be used within an Omniscript
-2. It takes a json array as its main input
+2. It takes a json array as its main input (see below)
 3. Stores selected item(s) in the data json of the Omniscript
 4. Supports the following customization:
 
