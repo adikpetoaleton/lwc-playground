@@ -31,7 +31,7 @@ This is basically a nice looking selectable items component with a flip side car
 ```
 6. Next to come:
 
-   + Possibility to add specific images for each item of the json array instead of a unique SLDS Icon.
+   + Possibility to add specific images for each item of the json array instead of a unique SLDS Icon
    + Possibility to specify the look and feel
    + Possibility to specify between Horizontal or Vertical Layout
    + Possibility to embbed this component within a Vlocity Card
