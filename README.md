@@ -1,4 +1,4 @@
-# Smart Thumbnails LWC (Selectable Items)
+# Smart Thumbnails LWC (Selectable Items) - version 1.0
 
 This is basically a nice looking selectable items component with a flip side card to display additional details.
 
