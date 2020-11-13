@@ -1,4 +1,4 @@
-# Smart Thumbnail LWC
+# Smart Thumbnail LWC (Selectable Items)
 
 1. Can be embedded within an Omniscript
 2. Takes a json array as its main input
