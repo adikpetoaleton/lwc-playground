@@ -1,4 +1,4 @@
-# Smart Thumbnail LWC (Selectable Items)
+# Smart Thumbnails LWC (Selectable Items)
 
 This is basically a nice looking selectable items component with a flip side card to display additional details.
 
@@ -32,7 +32,7 @@ The SmartThumbnail bundle is the child called by the SmartThumbnails and it won'
       }
    ]
 ```
-6. Next to come:
+# Next to come
 
    + Possibility to add specific images for each item of the json array instead of a unique SLDS Icon
    + Possibility to specify the look and feel
