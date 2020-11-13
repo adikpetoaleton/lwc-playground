@@ -10,7 +10,7 @@
    + Container Card Border (e.g. Parent Card of the child Thumbnails)
    + Container Card Title
 
-**Here is the json array for the input; and the fields need to match that structure:**
+**Here is the json array for the input; and the fields label need to match that structure:**
 ```
    "whateverNodeNameHere": [
       {
