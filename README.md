@@ -2,11 +2,11 @@
 
 1. This version can only be used within an Omniscript
 2. It takes a json array as its main input (see below)
-3. Stores selected item(s) in the data json of the Omniscript
-4. Supports the following customization:
+3. The selected item(s) are saved in the data json of the Omniscript
+4. It supports the following customization:
 
    + Single or Multiple selection Mode
-   + SLDS icons
+   + SLDS icons (specific images to come in a future version)
    + Container Card Border (e.g. Parent Card of the child Thumbnails)
    + Container Card Title
 
